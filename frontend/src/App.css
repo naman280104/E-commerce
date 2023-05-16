@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:#5bb5ba;
+}
+ul li a{
+    text-decoration: none;
+    color:azure;
+    font-weight: 600;
+}
+
+.navbar-list{
+    list-style-type: none;
+    display:flex;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+}
+
+.navbar-list li{
+    padding: 10px 20px 10px 20px;  
+    text-decoration: none;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #5bb5ba;
+    padding: 20px;
+}
+
+.signup{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.signup button{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: #5bb5ba;
+    border: 1px solid black;
+}
+.inputBox{
+    margin-left: 20px;
+    padding: 7px;
+    display: block;
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid skyblue;
+}
+
+.login{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.login button{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: #5bb5ba;
+    border: 1px solid black;
+}
+
+.add-product{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.add-product button{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: #5bb5ba;
+    border: 1px solid black;
+}
+
+.nav-right{
+    justify-content: end;
+    text-align: right;
+}
