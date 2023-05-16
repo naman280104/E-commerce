@@ -13,8 +13,6 @@ export default function Nav() {
         <ul className='navbar-list'>
         <li><Link to='/'>Products</Link></li>
         <li><Link to='/add'>Add</Link></li>
-        <li><Link to='/update'>Update</Link></li>
-        <li><Link to='/profile'>Profile</Link></li>
         <li className='extend-it'></li>
         <li style={{position:"absolute",right:"10px"}}><Link onClick={()=>logout()} to='/signup'>Logout ({JSON.parse(auth).name})</Link></li> 
         </ul>:
